@@ -10,7 +10,7 @@ import time
 
 app = Flask(__name__)
 
-CHROMEDRIVER_PATH = "chromedriver.exe"
+CHROMEDRIVER_PATH = "./chromedriver"
 service = Service(CHROMEDRIVER_PATH)
 
 driver = None
